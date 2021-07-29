@@ -1,0 +1,26 @@
+{
+  "name": "@onedrynugget/fontawesome-autoimport",
+  "version": "1.0.0",
+  "description": "Automatically detect and import fontawesome icons used in your webapp",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node ./index.js"
+  },
+  "author": "M1CK431",
+  "license": "LGPL-2.1-or-later",
+  "repository": {
+    "type": "git",
+    "url": "github.com/delight-data/fontawesome-autoimport"
+  },
+  "homepage": "https://github.com/delight-data/fontawesome-autoimport",
+  "keywords": [
+    "auto",
+    "generate",
+    "import",
+    "fontawesome",
+    "fortawesome",
+    "Vue.js",
+    "React",
+    "webpack"
+  ]
+}
