@@ -1,6 +1,6 @@
 {
   "name": "@onedrynugget/fontawesome-autoimport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically detect and import fontawesome icons used in your webapp",
   "main": "index.js",
   "scripts": {
