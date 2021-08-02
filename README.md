@@ -231,7 +231,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 library.add(fasCircle, fasAngleDown, farSignOutAlt, fasBars, farComments);
 ```
 
-### If you're confused, you can check the example projects above: [Vue.js](https://github.com/delight-data/fontawesome-autoimport/tree/main/example/vue), [React](https://github.com/delight-data/fontawesome-autoimport/tree/main/example/react).
+### If you're confused, you can check the example projects above: [Vue.js](https://github.com/delight-data/fontawesome-autoimport/tree/master/example/vue), [React](https://github.com/delight-data/fontawesome-autoimport/tree/master/example/react).
 
 ## Customization
 
