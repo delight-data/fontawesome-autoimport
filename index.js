@@ -16,7 +16,9 @@ const styles = Object.keys(dependencies).reduce((acc, dependency) => {
 const outputFolder = `${src}/plugins`;
 const outputFile = `${outputFolder}/fontawesome-autoimport.js`;
 
-const { pattern = `\[['"](fa[a-z])['"], *['"]([a-z-]+)['"]\]` } = process.env;
+const {
+  pattern = `\[['"](fa[a-z])['"], *['"]([a-z0-9-]+)['"]\]`
+} = process.env;
 const faRegex = new RegExp(pattern, "g");
 const fileRegex = new RegExp(/\.(vue|js)$/);
 
